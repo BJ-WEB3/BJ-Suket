@@ -2,9 +2,12 @@
 
 # Daftar new akun 
 - Register https://app.getgrass.io/register/?referralCode=6Uf8Yg5m2EuJYsG
+  - Android user pakai Kiwi Browser
 - Verify registrasi akun di email
 - Connect solana wallet (Phantom / Solflare / Backpack)
+  - Download jika belum punya https://chromewebstore.google.com/detail/phantom/bfnaelmomeimhlpmgjnjophhpkkoljpa
 - Verify connect wallet di email
+- For Android user: install Ext webtools https://chromewebstore.google.com/detail/webtools/ejnboneedfadhjddmbckhflmpnlcomge
 - Masuk ke https://app.getgrass.io/dashboard
 - Pencet F12 / Klik kanan pilih inspect
 - Masuk ke tab console
