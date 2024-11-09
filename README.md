@@ -5,9 +5,10 @@
   - Android user pakai Kiwi Browser
 - Verify registrasi akun di email
 - Connect solana wallet (Phantom / Solflare / Backpack)
-  - Download jika belum punya https://chromewebstore.google.com/detail/phantom/bfnaelmomeimhlpmgjnjophhpkkoljpa
+  - Android user use Solflare Web Wallet for easy to connect https://solflare.com/
 - Verify connect wallet di email
 - Masuk ke https://app.getgrass.io/dashboard
+  - Android user pakai App Element Inspector https://play.google.com/store/apps/details?id=com.code_element.vipapp.newapp
 - Pencet F12 / Klik kanan pilih inspect
 - Masuk ke tab console
 - Ketik ```localStorage.getItem('userId')``` ENTER
@@ -92,6 +93,7 @@
 - Ketik ```pkg upgrade``` ENTER
 - Ketik ```termux-wake-lock``` ENTER
   - Allow/Izinkan, Izinkan running background (agar layar off tetap jalan)
+  - 
 - Ketik ```termux-setup-storage``` ENTER
   - Allow/Izinkan
 - Ketik ```pkg install nodejs``` ENTER
