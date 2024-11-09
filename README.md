@@ -29,7 +29,10 @@
 - Open `proxy.txt` ganti dengan proxymu, SAVE `(FREE User SKIP step ini)`
 - Kembali ke powershell
 - Ketik ```npm start``` ENTER
-- Pilih `BJ 1,2,3` for free proxy / `CUSTOM` jika pakai proxy sendiri / `NO PROXY` jika ingin pakai IP Machine
+- Pilih Server:
+    - `BJ 1,2,3` for free proxy
+    - `CUSTOM` jika pakai proxy sendiri
+    - `NO PROXY` jika ingin pakai IP Machine
 - Powershell jangan di close
 
 
@@ -43,30 +46,41 @@
 - Edit UID dan Proxy
 ![0001](https://github.com/BJ-WEB3/BJ-Suket/blob/main/Screenshot%202024-11-09%20130229.png)
 - Ketik ```npm start``` ENTER
-- Pilih `BJ 1,2,3` for free proxy / `CUSTOM` jika pakai proxy sendiri / `NO PROXY` jika ingin pakai IP Machine
+- Pilih Server:
+    - `BJ 1,2,3` for free proxy
+    - `CUSTOM` jika pakai proxy sendiri
+    - `NO PROXY` jika ingin pakai IP Machine
 - Browser jangan di close
 
 
-## VPS - Bisa di PC / HP
+## VPS(Paid) - Bisa di PC / HP
 - Download Termius di Web / Playstore
 - Open Termius 
 - Ketik ```sudo apt-get install screen``` ENTER
-- Ketik ```screen -S suketmu``` ENTER | ganti `suketmu` sesuai seleramu 
+- Ketik ```screen -S suketmu``` ENTER
+    - ganti `suketmu` sesuai seleramu 
 - Ketik ```git clone https://github.com/BJ-WEB3/BJ-Suket.git``` ENTER 
 - Ketik ```cd BJ-Suket``` ENTER
 - Ketik ```curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash``` ENTER
 - Ketik ```source ~/.bashrc``` ENTER
 - Ketik ```nvm install --lts``` ENTER
 - Ketik ```apt install npm``` or ```npm install``` ENTER
-- Ketik ```nano uid.txt``` ganti UID dengan UID suketmu >>> CTRL + X >>> pilih Y/YES >>> ENTER
-- Ketik ```nano proxy.txt``` ganti dengan proxymu >>> CTRL + X >>> pilih Y/YES >>> ENTER `(FREE User skip step ini)`
+- Ketik ```nano uid.txt``` ENTER
+    - ganti UID dengan UID suketmu >>> CTRL + X >>> pilih Y/YES >>> ENTER
+- Ketik ```nano proxy.txt``` ENTER
+    - ganti dengan proxymu >>> CTRL + X >>> pilih Y/YES >>> ENTER `(FREE User skip step ini)`
 - Ketik ```npm start``` ENTER
-- Pilih `BJ 1,2,3` for free proxy / `CUSTOM` jika pakai proxy sendiri / `NO PROXY` jika ingin pakai IP Machine
-
+- Pilih Server:
+    - `BJ 1,2,3` for free proxy
+    - `CUSTOM` jika pakai proxy sendiri
+    - `NO PROXY` jika ingin pakai IP Machine
 *Screen control 
-- Klik `CTRL + A (HOLD)`, terus klik `D` | Untuk exit dari screen, VPS tetap jalan meskipun Termius di close
-- Ketik ```screen -ls``` ENTER | Untuk mengecek bot running background
-- Re-Open Termius, Ketik ```screen -r``` ENTER | Untuk masuk kembali ke screen
+- Klik `CTRL + A (Klik bareng dan tahan)`, terus klik `D`
+    - Untuk exit dari screen, VPS tetap jalan meskipun Termius di close
+- Ketik ```screen -ls``` ENTER
+    - Untuk mengecek bot running background
+- Re-Open Termius, Ketik ```screen -r``` ENTER
+    - Untuk masuk kembali ke screen
 
 
 ## Android 
@@ -74,16 +88,44 @@
 - Install n Open Termux
 - Ketik ```pkg update``` ENTER
 - Ketik ```pkg upgrade``` ENTER
-- Ketik ```termux-wake-lock``` ENTER | Pilih yes, Ijinkan running background (agar layar off tetap jalan)
+- Ketik ```termux-wake-lock``` ENTER
+  - Allow/Izinkan, Izinkan running background (agar layar off tetap jalan)
+- Ketik ```termux-setup-storage``` ENTER
+  - Allow/Izinkan
 - Ketik ```pkg install nodejs``` ENTER
 - Ketik ```git clone https://github.com/BJ-WEB3/BJ-Suket.git``` ENTER 
 - Ketik ```cd BJ-Suket``` ENTER
 - Ketik ```npm install``` ENTER
-- Ketik ```nano uid.txt``` ganti UID dengan UID suketmu >>> CTRL + X >>> pilih Y/YES >>> ENTER
-- Ketik ```nano proxy.txt``` ganti dengan proxymu >>> CTRL + X >>> pilih Y/YES >>> ENTER `(FREE User skip step ini)`
+- Edit UID dan Proxy `(FREE User SKIP step edit/upload proxy)` pilih Opsi A / B :
+- Opsi A :
+  - Ketik ```nano uid.txt``` ENTER
+      - ganti UID dengan UID suketmu >>> CTRL + X >>> pilih Y/YES >>> ENTER
+  - Ketik ```nano proxy.txt``` ENTER
+      - ganti dengan proxymu >>> CTRL + X >>> pilih Y/YES >>> ENTER 
+- Opsi B, dengan cara upload file (lebih mudah) :
+  - Download CX File Explorer di PlayStore
+  - Open CX File, Create Folder (Beri nama : `BJ`, misal)
+  - Masuk ke `BJ` folder
+  - Create file `uid.txt` isi dengan UID suketmu
+  - Create file `proxy.txt` isi dengan proxymu
+  - Kembali ke Termux
+      - Untuk upload UID, Ketik: ```cp /storage/emulated/0/BJ/uid.txt ~/BJ-Suket/uid.txt``` ENTER
+      - Untuk upload Proxy, Ketik: ```cp /storage/emulated/0/BJ/uid.txt ~/BJ-Suket/proxy.txt``` ENTER
 - Ketik ```npm start``` ENTER
-- Pilih `BJ 1,2,3` for free proxy / `CUSTOM` jika pakai proxy sendiri / `NO PROXY` jika ingin pakai IP Machine
+- Pilih Server:
+    - `BJ 1,2,3` for free proxy
+    - `CUSTOM` jika pakai proxy sendiri
+    - `NO PROXY` jika ingin pakai IP Machine
 - Minimize Termux
+
+
+## +++++
+- Untuk stop BOT, Klik ```CTRL + C```
+- Untuk update Free Proxy setiap hari:
+  - Stop dulu BOT nya ```CTRL + C```
+  - Ketik ```git pull``` ENTER
+  - Run kembali BOT nya ```npm start``` ENTER
+ 
 
 
 
