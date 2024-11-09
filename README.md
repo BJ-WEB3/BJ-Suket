@@ -106,7 +106,7 @@
       - ganti UID dengan UID suketmu >>> CTRL + X >>> pilih Y/YES >>> ENTER
   - Ketik ```nano proxy.txt``` ENTER
       - ganti dengan proxymu >>> CTRL + X >>> pilih Y/YES >>> ENTER 
-- Opsi B, dengan cara upload file (lebih mudah) :
+- Opsi B, dengan cara upload file:
   - Download CX File Explorer di PlayStore
   - Open CX File, Create Folder (Beri nama : `BJ`, misal)
   - Masuk ke `BJ` folder
