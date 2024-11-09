@@ -27,6 +27,7 @@
 - Open powershell
 - Ketik ```git clone https://github.com/BJ-WEB3/BJ-Suket.git``` ENTER
 - Ketik ```Set-ExecutionPolicy RemoteSigned -Scope CurrentUser``` ENTER
+  - Pilih YES/Ketik ```Y``` ENTER
 - Ketik ```cd BJ-Suket``` ENTER
 - Ketik ```npm install``` ENTER
 - Masuk ke directory PC... C:\Users\XXXX\BJ-Suket 
