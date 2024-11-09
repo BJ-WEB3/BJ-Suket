@@ -93,7 +93,6 @@
 - Ketik ```pkg upgrade``` ENTER
 - Ketik ```termux-wake-lock``` ENTER
   - Allow/Izinkan, Izinkan running background (agar layar off tetap jalan)
-  - 
 - Ketik ```termux-setup-storage``` ENTER
   - Allow/Izinkan
 - Ketik ```pkg install nodejs``` ENTER
