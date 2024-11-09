@@ -93,6 +93,7 @@
 - Ketik ```termux-setup-storage``` ENTER
   - Allow/Izinkan
 - Ketik ```pkg install nodejs``` ENTER
+- Ketik ```pkg install git``` ENTER
 - Ketik ```git clone https://github.com/BJ-WEB3/BJ-Suket.git``` ENTER 
 - Ketik ```cd BJ-Suket``` ENTER
 - Ketik ```npm install``` ENTER
