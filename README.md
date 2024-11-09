@@ -22,9 +22,11 @@
 # Cara running
 
 ## PC
+- Install GUI https://git-scm.com/downloads/win
 - Install nodejs https://nodejs.org/dist/v22.11.0/node-v22.11.0-x64.msi
 - Open powershell
 - Ketik ```git clone https://github.com/BJ-WEB3/BJ-Suket.git``` ENTER
+- Ketik ```curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash``` ENTER
 - Ketik ```cd BJ-Suket``` ENTER
 - Ketik ```npm install``` ENTER
 - Masuk ke directory PC... C:\Users\XXXX\BJ-Suket 
