@@ -3,9 +3,11 @@ const axios = require('axios');
 const fs = require('fs');
 
 const PROXY_SOURCES = {
-  'BJ 1': 'https://gist.githubusercontent.com/lxnrdn/122e160dc1bbf7fb031ed41c8c8feee8/raw/9fd1b08a8e6d0cbea9011925d63748b3ee9f6af7/BJ1.txt',
-  'BJ 2': 'https://gist.githubusercontent.com/lxnrdn/e8050b9ffed405a89260d136a74f6163/raw/f7a78d3451b24ecc63ec51d49e8aeccfe9a1b834/BJ2.txt',
-  'BJ 3': 'https://gist.githubusercontent.com/lxnrdn/77d36f6be2bfd730d381ebc66367a48f/raw/dfbfce388dcebf22d52b73ab5bcdb3b39f0125da/BJ3.txt',
+  'BJ 1': 'https://raw.githubusercontent.com/monosans/proxy-list/refs/heads/main/proxies/all.txt',
+  'BJ 2': 'https://raw.githubusercontent.com/monosans/proxy-list/refs/heads/main/proxies_anonymous/all.txt',
+  'BJ 3': 'https://gist.githubusercontent.com/BJ-WEB3/d319d24596430267114fffdb727124de/raw/4d84fac2f37bbd05f15c485dfcf80f88b071ab01/BJ1.txt',
+  'BJ 4': 'https://gist.githubusercontent.com/BJ-WEB3/81e807fd255d53f2e9c1173ccbf95b27/raw/0bb6c7412da05526ebf567359c47210aa77d1e9e/BJ2.txt',
+  'BJ 5': 'https://gist.githubusercontent.com/BJ-WEB3/c9c5c28339cba2b1996d29515626d21b/raw/1967ac79dc3e777cdc7b1095afcd4d1fcb6178d0/BJ3.txt',
 };
 
 async function fetchProxies(url) {
