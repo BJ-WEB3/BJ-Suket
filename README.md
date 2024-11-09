@@ -114,7 +114,7 @@
   - Create file `proxy.txt` isi dengan proxymu
   - Kembali ke Termux
       - Untuk upload UID, Ketik: ```cp /storage/emulated/0/BJ/uid.txt ~/BJ-Suket/uid.txt``` ENTER
-      - Untuk upload Proxy, Ketik: ```cp /storage/emulated/0/BJ/uid.txt ~/BJ-Suket/proxy.txt``` ENTER
+      - Untuk upload Proxy, Ketik: ```cp /storage/emulated/0/BJ/proxy.txt ~/BJ-Suket/proxy.txt``` ENTER
 - Ketik ```npm start``` ENTER
 - Pilih Server:
     - `BJ 1,2,3` for free proxy
