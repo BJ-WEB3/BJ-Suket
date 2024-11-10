@@ -126,12 +126,14 @@
 - Minimize Termux
 
 
-## +++++
+## ++++++++++
 - Untuk stop BOT, Klik ```CTRL + C```
-- Untuk update Free Proxy setiap hari:
+- Untuk update:
   - Stop dulu BOT nya ```CTRL + C```
   - Ketik ```git pull``` ENTER
   - Run kembali BOT nya ```npm start``` ENTER
+- BJ 1 & 2, proxy update setiap 1jam
+- BJ 3,4,5, proxy update setiap 24jam
  
 
 
