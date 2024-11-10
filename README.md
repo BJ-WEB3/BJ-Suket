@@ -132,8 +132,8 @@
   - Stop dulu BOT nya ```CTRL + C```
   - Ketik ```git pull``` ENTER
   - Run kembali BOT nya ```npm start``` ENTER
-- BJ 1 & 2, proxy update setiap 1jam
-- BJ 3,4,5, proxy update setiap 24jam
+- BJ 1 & 2, proxy auto update setiap 1jam
+- BJ 3,4,5, proxy auto update setiap 24jam
  
 
 
