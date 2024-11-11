@@ -5,7 +5,7 @@ const fs = require('fs');
 const PROXY_SOURCES = {
   'BJ 1': 'https://raw.githubusercontent.com/monosans/proxy-list/refs/heads/main/proxies/all.txt',
   'BJ 2': 'https://raw.githubusercontent.com/monosans/proxy-list/refs/heads/main/proxies_anonymous/all.txt',
-  'BJ 3': 'https://gist.githubusercontent.com/BJ-WEB3/d319d24596430267114fffdb727124de/raw/780edc474c9f2ac1d48ec71665b8cd5ef67f5b5e/BJ1.txt',
+  'BJ 3': 'https://pastebin.com/raw/q1T8WiWM',
   'BJ 4': 'https://pastebin.com/raw/WsHjnKPe',
   'BJ 5': 'https://gist.githubusercontent.com/BJ-WEB3/c9c5c28339cba2b1996d29515626d21b/raw/1967ac79dc3e777cdc7b1095afcd4d1fcb6178d0/BJ3.txt',
 };
